@@ -1,3 +1,1 @@
-module.exports = function reverse (n) {
-  
-}
+module.exports = reverse = n => `${n >= 0 ? n : -n}`.split('').reverse().join('');
